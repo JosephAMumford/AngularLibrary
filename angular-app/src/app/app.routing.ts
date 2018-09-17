@@ -2,10 +2,10 @@ import { Routes, RouterModule } from "@angular/router";
 import { ModuleWithProviders } from "@angular/core";
 
 export const routes: Routes = [
-  { path: "", pathMatch: "full", redirectTo: "content" },
+  { path: "", pathMatch: "full", redirectTo: "main" },
   { path: "content", loadChildren: "./main/main.module#MainModule" },
   {
-    path: "login",
+    path: "main",
     loadChildren: "./authorization/authorization.module#AuthorizationModule"
   }
 ];

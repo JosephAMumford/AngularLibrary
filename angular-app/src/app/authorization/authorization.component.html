@@ -1,3 +1,25 @@
-<p>
-  authorization works!
-</p>
+<!-- <div *ngIf="message">{{message.text}}</div>
+<button (click)="isLogin=true">Login</button>
+<button (click)="isLogin=false">Register</button>
+<div *ngIf="isLogin">
+  <label>User Name:</label>
+  <input [(ngModel)]="loginData.userName" placeholder="enter username"><br>
+  <label>Password:</label>
+  <input [(ngModel)]="loginData.password" placeholder="enter password"><br>
+  <button (click)="login()">Login</button>
+</div>
+<div *ngIf="!isLogin">
+  <label>First Name:</label>
+  <input [(ngModel)]="login.firstName" placeholder="enter first name"><br>
+  <label>Last Name: </label>
+  <input [(ngModel)]="login.lastName" placeholder="enter last name"><br>
+  <label>User Name:</label>
+  <input [(ngModel)]="loginData.userName" placeholder="enter username"><br>
+  <label>Password:</label>
+  <input [(ngModel)]="loginData.password" placeholder="enter password"><br>
+  <button (click)="register()">Register</button>
+</div>
+<button (click)="sendMessage()" class="btn btn-primary">Send Message</button>
+<button (click)="clearMessage()" class="btn btn-secondary">Clear Message</button> -->
+
+<button routerLink="login">Login</button>
